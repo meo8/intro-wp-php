@@ -84,7 +84,7 @@ Use the `add_action()` function to add/use hooks provided by WP.
 
 That’s how to run a function.
 
-### **Create Action Hooks**
+### **Custom Action Hooks**
 Create a hook within your theme files, where you want your function to attach to your hook, and be sure to give it a relevant name.
 
     do_action( 'after_header' )
@@ -111,7 +111,7 @@ These hooks are not empty. It surrounds some existing text/content/code and by a
 
 So it means that when you're coding a theme or a plugin, you can add some default text for example, wrap it in a filter and then you can override that with another function if you want to in the future.
 
-### **Create Filter Hook**
+### **Custom Filter Hook**
 Create a filter hook by using `apply_filters( string $tag, mixed $value )`.
 
     Parameters:
