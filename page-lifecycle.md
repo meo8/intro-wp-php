@@ -36,4 +36,3 @@ Filters are completely differfent to actions. Like actions, they are similar poi
 ## When To Use Hooks
 - Use actions when you want to add something to the existing page such as stylesheets, JS dependencies, or send an email when an event has happened.
 - Use filters when you want to manipulate data coming out of the database prior to going to the browser, or coming from the browser prior to going into the database.
-- 
