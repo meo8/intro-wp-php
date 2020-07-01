@@ -46,7 +46,7 @@ WP has a whole load of conditional tags, such as checking if we're on the main p
     
     </article>
 
-<?php endwhile() : endif(); ?>
+<?php endwhile : endif; ?>
 ```
 
 ```php

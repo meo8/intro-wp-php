@@ -19,7 +19,7 @@
     
     </article>
 
-<?php endwhile() : endif(); ?>
+<?php endwhile : endif; ?>
 ```
 
 > the_ID() and post_class() are template tags, while the others are functions. Template tags are also functions.
